@@ -1,21 +1,22 @@
-# Pedestrian-Detection
 
-This Python script detects pedestrians in video feeds using two methods:
+---
 
-HOG Descriptor: Green bounding boxes (default pedestrian detector).
+### 5. **Pedestrian Detection**
 
-Haar Cascade: Blue bounding boxes (haarcascade_fullbody.xml required).
+```markdown
+# Pedestrian Detection
 
-Key Features:
-Works with video files/webcam input (press 0 to switch to webcam live feed).
+A computer vision project to detect pedestrians in images and video using Histogram of Oriented Gradients (HOG) and Support Vector Machine (SVM) in OpenCV.
 
-Real-time processing with frame resizing for efficiency.
+## Features
+- Detects pedestrians in static and video input
+- Uses HOG descriptors with SVM
+- Real-time processing with OpenCV
 
-Usage:
-Install dependencies: pip install opencv-python imutils
+## Technologies Used
+- Python
+- OpenCV
 
-Download haarcascade_fullbody.xml and update the file path in the script.
-
-Run the code. Press q to exit or 0 for webcam mode.
-
-👉 Tip: Adjust video_source variable to your video file path.
+## How to Run
+```bash
+python pedestrian_detection.py
